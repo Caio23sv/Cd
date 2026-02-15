@@ -1,6 +1,6 @@
 -- CARREGAMENTO DA BIBLIOTECA COM FALLBACK
 local success, Library = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Caio23sv/Fc/refs/heads/main/F"))()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Caio23sv/roxy_interface_completa-lua-mlnnzjsb/main/ROXY_Interface_Completa.lua"))()
 end)
 
 if not success or not Library then
