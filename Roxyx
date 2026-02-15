@@ -1,12 +1,12 @@
 -- CARREGAMENTO DA BIBLIOTECA COM FALLBACK
 local success, Library = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Caio23sv/roxy_interface_completa-lua-mlnnzjsb/main/ROXY_Interface_Completa.lua"))()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/Caio23sv/roxy_ui_library-lua-mlnon5cm/main/ROXY_UI_Library.lua"))()
 end)
 
 if not success or not Library then
     -- Criar UI alternativa
     local ScreenGui = Instance.new("ScreenGui")
-    ScreenGui.Name = "RoxyHub"
+    ScreenGui.Name = "Roxyx"
     ScreenGui.ResetOnSpawn = false
     ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
     
